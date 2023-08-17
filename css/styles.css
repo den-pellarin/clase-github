@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 1 rem = 10px */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/* Colores */
+.primary1{
+    color: #967BA6;
+}
+.primary2{
+    color: #CBC0D3;
+}
+.primary3{
+    color: #E6E1EA;
+}
+.secondary1{
+    color: #5F7470;
+}
+.secondary2{
+    color: #CDD1BF;
+}
+.secondary3{
+    color: #E8EAD9;
+}
+.tertiary1{
+    color: #D6CCC2;
+}
+.tertiary2{
+    color: #F3EDDE;
+}
+.tertiary3{
+    color: #FAF6EC;
+}
+/* Fondos */
+.fondoClaro{
+    background-color: #FAF6EC;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: sticky;
+    top: 0;
+}
+.fondoMedio{
+    background-color: #F3EDDE;
+}
+.fondoOscuro{
+    background-color: #D6CCC2;
+}
+.banner-home{
+    background-image: url("../media/images/banner_principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    font-size: 24px;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+}   
+.bannerPf{
+    background-image: url("../media/images/banner-pf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    font-size: 24px;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: #967BA6;
+    text-size-adjust: 1rem;
+}
+ul li{
+    display: inline-block;
+    padding-left: 10px;
+    margin: 12px;
+    text-decoration-color: #967BA6;
+}
+.logo{
+    display: inline;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer{
+    background-color: #D6CCC2;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-content: center;
+}
+h1{
+    color: white;
+    padding-bottom: 12px;
+}
+h3{
+    color: gainsboro;
+}
+#secundario{
+    background-color: #E6E1EA;
+    padding: 30px;
+    border: 40px;
+    text-align: center;
+}
+.imgDestacada{
+    padding: 20px;
+}
+p{
+    color: #333333;
+    padding: 12px;
+}
+h4{
+    color: #333333;
+    font-size: 12px;
+}
+.img{
+    display: inline-block;
+    padding: 20px;
+    margin: 50px;
+    border: 10px;
+    align-content: center;
+}
+.logo-footer{
+    display: inline-block;
+}
+.redes-footer{
+    padding: 8px;
+}
+.preguntasFrecuentes{
+    text-align: center;
+    padding: 20px;
+}
+
+.faq-container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+  
+.faq-item {
+margin-bottom: 20px;
+}
+
+.question {
+font-weight: bold;
+background-color: #E6E1EA;
+padding: 8px;
+}
+
+.title{
+    text-align: center;
+    color: #5F7470;
+}
+
+.header{
+    background-color: #FAF6EC;
+    display: flex;
+    height: 96px;
+    padding: 20px 50px 23.129px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 672.411px;
+    flex-shrink: 0;
+}
+/*.logo-header{
+    display: inline;
+}
+
+.menu-header{
+    display: inline;
+}*/
